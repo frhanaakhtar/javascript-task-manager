@@ -1,42 +1,54 @@
 # 📋 JavaScript Task Manager
 A modern single-page Task Management Application built using HTML, CSS, and Vanilla JavaScript without any frameworks.
 ## Features
-- Create Task
-- Edit Task
-- Delete Task
-- Complete / Undo Task
-- Search Tasks
-- Debounced Search
-- Highlight Search Results
-- Filter Tasks
-- Sort Tasks
-- Drag & Drop Reordering
-- Undo / Redo (20 Action History)
-- Keyboard Shortcuts
-- URL Parameter Persistence
-- Local Storage Persistence
-- Schema Migration
-- Responsive Design
+- Create, edit, complete, and delete tasks
+- Search tasks with debounced input
+- Highlight matching search text
+- Filter tasks by status
+- Sort tasks by newest, oldest, priority, and due date
+- URL parameter persistence
+- LocalStorage persistence
+- LocalStorage schema migration
+- HTML5 Drag and Drop task reordering
+- Undo and redo using a command-style history system
+- 20-action history stack
+- Keyboard shortcuts
+- Responsive design
+- Modular JavaScript architecture
 ## Technologies Used
 - HTML5
 - CSS3
-- JavaScript (ES6 Modules)
-- Local Storage API
-## Folder Structure
+- JavaScript ES6+
+- ES Modules
+- Local Storage
+- HTML5 Drag and Drop API
+- Git
+- GitHub
+## Project Structure
 ```text
-Task-Manager-App
+Task-Manager-App/
 │
 ├── index.html
-├── css
-├── js
-├── assets
-└── README.md
+│
+├── css/
+│   └── style.css
+│
+└── js/
+    ├── app.js
+    ├── search.js
+    ├── storage.js
+    ├── ui.js
+    ├── history.js
+    ├── drag.js
+    └── utils.js
 ```
-## Installation
-1. Download the project.
-2. Open in VS Code.
-3. Run using Live Server.
+##How to Run
+Clone or download the repository.
+Open the project in Visual Studio Code.
+Open index.html using Live Server.
+Use the application in your browser.
 
 ## Author
 
 Frhana Akhtar
+Frontend Developer | BSCS Student
