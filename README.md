@@ -42,11 +42,11 @@ Task-Manager-App/
     ├── drag.js
     └── utils.js
 ```
-##How to Run
-Clone or download the repository.
-Open the project in Visual Studio Code.
-Open index.html using Live Server.
-Use the application in your browser.
+## How to Run
+1. Clone or download the repository.
+2. Open the project in Visual Studio Code.
+3. Open index.html using Live Server.
+4. Use the application in your browser.
 
 ## Author
 
